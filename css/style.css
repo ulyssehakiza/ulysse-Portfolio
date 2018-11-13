@@ -1,0 +1,59 @@
+body {
+  background: #333;
+  color: #fff;
+}
+
+.navbar {
+  border-bottom: rgb(168, 199, 212) 3px solid;
+  opacity: 0.8;
+}
+
+#home-section {
+  background: url(../img/nirvana\heights.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  min-height: 950px;
+}
+
+#home-section .dark-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 950px;
+  background: rgba(0, 0, 0, 0.7);
+}
+#home-section .home-inner {
+  padding-top: 400px;
+}
+
+#home-section .card-form {
+  opacity: 2.5;
+}
+
+#home-section .fas,
+#porfolio-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#about-section .fas,
+#share-section .fas {
+  background: rgb(97, 12, 100);
+  color: #fff;
+  padding: 2px;
+  border-radius: 2px;
+}
+.about-img {
+  margin-top: -70px;
+  margin-left: 0px;
+}
+
+@media (min-width: 1199px) {
+  .port-item {
+    padding: 2em !important;
+  }
+}
