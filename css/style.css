@@ -40,20 +40,41 @@ body {
   border-radius: 5px;
 }
 
-#about-section .fas,
+#about-section .fab,
 #share-section .fas {
   background: rgb(97, 12, 100);
   color: #fff;
   padding: 2px;
   border-radius: 2px;
 }
-.about-img {
-  margin-top: -70px;
-  margin-left: 0px;
+#about-img {
+  margin-top: -50px;
+}
+.card:hover {
+  background: #3292a6;
+  color: #fff;
+}
+#about .fab {
+  color: #fff;
+}
+.progress {
+  height: 26px;
+  margin: 0, 0, 15px, 0;
+  font-size: 11pt;
+}
+.progress-bar {
+  position: absolute;
+  background: #3292a6;
+  text-align: left;
+}
+.text-white {
+  font-size: 1rem;
+  background: #3292a6;
+  color: white;
 }
 
 @media (min-width: 1199px) {
-  .port-item {
-    padding: 2em !important;
+  .mb-resp {
+    margin-bottom: 1rem;
   }
 }
