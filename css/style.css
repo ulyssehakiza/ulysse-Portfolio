@@ -32,9 +32,8 @@ body {
   opacity: 2.5;
 }
 
-#home-section .fas,
-#porfolio-section .fas {
-  color: #008ed6;
+#home-section #porfolio-section {
+  color: #3292a6;
   background: #fff;
   padding: 5px;
   border-radius: 5px;
@@ -42,7 +41,7 @@ body {
 
 #about-section .fab,
 #share-section .fas {
-  background: rgb(97, 12, 100);
+  background: #008ed6;
   color: #fff;
   padding: 2px;
   border-radius: 2px;
@@ -77,4 +76,22 @@ body {
   .mb-resp {
     margin-bottom: 1rem;
   }
+}
+
+/* PORTFOLIO PAGE */
+
+#showcase .carousel-item {
+  height: 600px;
+}
+.carousel-image-1 {
+  background: url('../img/photo-1.jpg');
+  background-size: cover;
+}
+.carousel-image-2 {
+  background: url('../img/lalights.jpg');
+  background-size: cover;
+}
+.carousel-image-3 {
+  background: url('../img/photo-2.jpg');
+  background-size: cover;
 }
