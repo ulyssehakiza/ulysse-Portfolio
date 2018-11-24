@@ -1,11 +1,10 @@
 body {
-  background: #333;
-  color: #fff;
+  background: #3292a6;
 }
 
 .navbar {
-  border-bottom: rgb(168, 199, 212) 3px solid;
-  opacity: 0.8;
+  background: #3292a6;
+  border-bottom: rgba(3, 68, 99, 0.335) 3px solid;
 }
 
 #home-section {
@@ -22,7 +21,7 @@ body {
   left: 0;
   width: 100%;
   min-height: 950px;
-  background: rgba(0, 0, 0, 0.7);
+  background: #6fa9b48f;
 }
 #home-section .home-inner {
   padding-top: 400px;
@@ -78,20 +77,48 @@ body {
   }
 }
 
-/* PORTFOLIO PAGE */
+/* RESUME PAGE */
 
-#showcase .carousel-item {
-  height: 600px;
+.header-container {
+  background-image: url('../img/photo-2.jpg');
+  color: #dfe2ea;
 }
-.carousel-image-1 {
-  background: url('../img/photo-1.jpg');
-  background-size: cover;
+
+.resume-container {
 }
-.carousel-image-2 {
-  background: url('../img/lalights.jpg');
-  background-size: cover;
+.left-container {
+  background: #3292a6;
 }
-.carousel-image-3 {
-  background: url('../img/photo-2.jpg');
-  background-size: cover;
+.right-container {
+  background: #d66700;
+}
+
+hr {
+  background: #034668;
+}
+
+.fab {
+  color: #fff;
+}
+.card-body {
+  padding: 20px;
+}
+.card {
+  padding: 0px;
+  margin: 0px;
+}
+.col-lg-3 {
+  padding-right: 0px;
+}
+.ed {
+  list-style-type: square;
+}
+
+/* resume header */
+a.home {
+  color: #fff;
+  text-decoration: none;
+}
+a.home:hover {
+  color: #3292a6;
 }
