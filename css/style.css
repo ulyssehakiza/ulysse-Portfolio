@@ -1,5 +1,5 @@
 body {
-  background: #3292a6;
+  background: #fff;
 }
 
 .navbar {
@@ -67,7 +67,7 @@ body {
 }
 .text-white {
   font-size: 1rem;
-  background: #3292a6;
+  background: #29707e;
   color: white;
 }
 
@@ -79,46 +79,110 @@ body {
 
 /* RESUME PAGE */
 
+/* HEADER */
 .header-container {
-  background-image: url('../img/photo-2.jpg');
+  background-color: #29707e;
   color: #dfe2ea;
+  height: 165px;
 }
-
-.resume-container {
+p.home-text {
+  font-size: 14px;
+  padding-left: 20px;
 }
-.left-container {
-  background: #3292a6;
-}
-.right-container {
-  background: #d66700;
-}
-
-hr {
-  background: #034668;
-}
-
-.fab {
+a.home {
   color: #fff;
+  text-decoration: none;
+  padding-left: 15px;
 }
-.card-body {
-  padding: 20px;
+a.home:hover {
+  color: #a4a8bdc9;
 }
-.card {
-  padding: 0px;
-  margin: 0px;
+
+.header-img {
+  height: 165px;
+}
+.img-fluid {
+  position: absolute;
+  right: 15px;
+  margin-top: 4px;
+  width: 25%;
+  height: 155px;
+}
+/* LEFT SECTION */
+.row {
+  margin-right: 0px;
 }
 .col-lg-3 {
-  padding-right: 0px;
+  padding-left: 20px;
+}
+
+.card {
+  padding: 20px;
+  margin: 0px;
+}
+
+.card-skills {
+  padding: 20px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin: auto;
+}
+.card-projects {
+  padding: 20px;
+  padding-top: 0px;
+  margin: auto;
+  text-align: justify;
+}
+.title {
+  margin-bottom: 0px;
+  border: 20px;
+  font-size: 28px;
+}
+h6,
+h5 {
+  text-decoration: underline;
+  margin-bottom: 0px;
+}
+
+.lead-project,
+p {
+  padding: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  text-align: justify;
+  font-size: 14px;
+}
+.fab {
+  color: #fff;
 }
 .ed {
   list-style-type: square;
 }
 
-/* resume header */
-a.home {
-  color: #fff;
-  text-decoration: none;
+/* RIGHT SECTION */
+
+.card-right {
+  padding: 28px;
+
+  border-right: 1px;
 }
-a.home:hover {
-  color: #3292a6;
+.lead {
+  margin-bottom: 0px;
+  text-align: justify;
+}
+.card-content {
+  padding-right: 40px;
+  font-size: 14px;
+}
+.card-title {
+  padding-top: 13px;
+}
+hr {
+  background: #034668;
+}
+
+/* Footer*/
+.footer-container {
+  height: auto;
+  text-align: center;
 }
