@@ -1,11 +1,14 @@
+/* INDEX */
 body {
-  background: #fff;
+  background: #e9ced6;
+}
+/* NavBar */
+.navbar {
+  background: #153941;
+  border-bottom: rgb(107, 61, 105) 3px solid;
 }
 
-.navbar {
-  background: #3292a6;
-  border-bottom: rgba(3, 68, 99, 0.335) 3px solid;
-}
+/* Home Section */
 
 #home-section {
   background: url(../img/nirvana\heights.jpg);
@@ -37,44 +40,60 @@ body {
   padding: 5px;
   border-radius: 5px;
 }
+.btn-outline-info {
+  color: black;
+  font-size: 1.5rem;
+  border: opx;
+  border-color: transparent;
+  padding-top: 6px;
+  padding-left: 12px;
+  padding-bottom: 6px;
+  padding-right: 12px;
+}
 
-#about-section .fab,
+/* About Section */
+#about-head-section {
+  background: #29707e;
+  color: #fff;
+}
+#about-section,
 #share-section .fas {
   background: #008ed6;
   color: #fff;
   padding: 2px;
   border-radius: 2px;
 }
-#about-img {
-  margin-top: -50px;
+.card-img {
+  margin-bottom: 5px;
+  height: 173px;
 }
+
 .card:hover {
   background: #3292a6;
   color: #fff;
 }
-#about .fab {
-  color: #fff;
-}
+
 .progress {
-  height: 26px;
-  margin: 0, 0, 15px, 0;
+  height: 37.5px;
+  margin: 10px;
   font-size: 11pt;
 }
 .progress-bar {
-  position: absolute;
-  background: #3292a6;
-  text-align: left;
-}
-.text-white {
-  font-size: 1rem;
-  background: #29707e;
-  color: white;
+  height: 37.5px;
+  flex-direction: row;
+  justify-content: center;
+  background-color: #3292a6;
 }
 
 @media (min-width: 1199px) {
   .mb-resp {
     margin-bottom: 1rem;
   }
+}
+
+/* Portfolio Section */
+#portfolio-head-section {
+  background: #29707e;
 }
 
 /* RESUME PAGE */
@@ -95,13 +114,13 @@ a.home {
   padding-left: 15px;
 }
 a.home:hover {
-  color: #a4a8bdc9;
+  color: #8311b1c9;
 }
 
 .header-img {
   height: 165px;
 }
-.img-fluid {
+#imgHeader {
   position: absolute;
   right: 15px;
   margin-top: 4px;
@@ -185,4 +204,14 @@ hr {
 .footer-container {
   height: auto;
   text-align: center;
+  border-top: rgb(107, 61, 105) 3px solid;
+}
+.resume-footer {
+  font-size: 1rem;
+  background: #29707e;
+  color: #fff;
+}
+.index-footer {
+  background: #153941;
+  color: #fff;
 }
